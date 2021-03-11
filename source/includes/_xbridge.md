@@ -2143,7 +2143,7 @@ scalaris-cli dxGetTradingData 1440
  
 Parameter     | Type          | Description
 --------------|---------------|-------------
-blocks        | int           | (Optional Parameter) Defaults to `43200`.<br>Number of blocks to return trade records for (60s block time).
+blocks        | int           | (Optional Parameter) Defaults to `42000`.<br>Number of blocks to return trade records for (60s block time).
 errors        | bool          | (Optional Parameter) Defaults to `false`.<br>Shows and error if there's an error detected. This may be useful if you're building a custom client and change the on-chain order history data format.
 
 
